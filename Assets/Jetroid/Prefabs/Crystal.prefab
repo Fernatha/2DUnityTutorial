@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3170463772529948070}
   - component: {fileID: 6099648570135056439}
-  - component: {fileID: -5532169417303976611}
+  - component: {fileID: 1357187272}
+  - component: {fileID: 1357187271}
+  - component: {fileID: 1357187273}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -81,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-5532169417303976611
+--- !u!61 &1357187272
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +93,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -107,3 +109,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 9}
   m_EdgeRadius: 0
+--- !u!114 &1357187271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902389288389348640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dbd68f0f7ae54b448745a1041bf2e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1357187273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902389288389348640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901464fa524dce645abf961460bd0fa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: d78ee69bc23ba4223abd8b785da70ee7, type: 3}
+  - {fileID: 21300000, guid: 882608a6bd57144e2a80b0aec2133ac3, type: 3}
+  - {fileID: 21300000, guid: 067e26429da394a2d91c87afc3c087a7, type: 3}
+  - {fileID: 21300000, guid: f221cf15068f14969baeee1b49a47b72, type: 3}
+  - {fileID: 21300000, guid: 193217022d7974931b1857da66835ec7, type: 3}
